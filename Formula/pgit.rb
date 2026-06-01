@@ -1,4 +1,4 @@
-class Gitp < Formula
+class Pgit < Formula
   desc "K9s-style TUI for managing git operations across multiple repositories"
   homepage "https://github.com/MerzoukeMansouri/pgit"
   version "1.0.0"
