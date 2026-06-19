@@ -1,22 +1,22 @@
 class Pgit < Formula
   desc "K9s-style TUI for managing git operations across multiple repositories"
   homepage "https://github.com/MerzoukeMansouri/pgit"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MerzoukeMansouri/pgit/releases/download/v1.1.0/pgit-v1.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f2e0b7e4d7299a11d863397ee3136bdadad24a0df9e33a8725f4bfc849cca7e7"
+      url "https://github.com/MerzoukeMansouri/pgit/releases/download/v1.1.1/pgit-v1.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "50b864a2aa056fe67afd90ea68be484e38dced70db750487d1b5ab2326cb8f9a"
     else
-      url "https://github.com/MerzoukeMansouri/pgit/releases/download/v1.1.0/pgit-v1.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "91a28add37f31dfc6b074c1f4bb87d40cd2bd462f8700190e565fe681b00de7f"
+      url "https://github.com/MerzoukeMansouri/pgit/releases/download/v1.1.1/pgit-v1.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "15cbfb42356a748cf6e37c26bba54ec1a219c2cb6969d654458683b59b7d9a3a"
     end
   end
 
   on_linux do
-    url "https://github.com/MerzoukeMansouri/pgit/releases/download/v1.1.0/pgit-v1.1.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "68a0c7bb00b82d887a589c7b27003ad3b66757ad4a16d02fc1ee53a8b59b9de8"
+    url "https://github.com/MerzoukeMansouri/pgit/releases/download/v1.1.1/pgit-v1.1.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "320313172de7cf323f5c37d6ba9cd103eeabbe4b5d1832debbbcc6a33b1be28b"
   end
 
   def install
