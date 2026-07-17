@@ -1,22 +1,22 @@
 class Cua < Formula
   desc "Drive a real Chrome browser via CDP from the CLI"
   homepage "https://github.com/MerzoukeMansouri/cu-agent"
-  version "1.3.0"
+  version "1.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MerzoukeMansouri/cu-agent/releases/download/v1.3.0/cua-v1.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "80a816516b1d592f6e1f4771728b4bd8a077e3f7faf3de7f1b91e5722d86cce5"
+      url "https://github.com/MerzoukeMansouri/cu-agent/releases/download/v1.3.1/cua-v1.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "39a2cce4aba678ef74faa5a62527662c935d2bcf02e2cc974a68074627c03d6b"
     else
-      url "https://github.com/MerzoukeMansouri/cu-agent/releases/download/v1.3.0/cua-v1.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e3db8b1ed07aea95a0c1a8f432ac25fc69c2c328a5d1a84bf474a5c30e208edf"
+      url "https://github.com/MerzoukeMansouri/cu-agent/releases/download/v1.3.1/cua-v1.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b8a1b9f8277839a185c64e751f85f0166daa9e3cd24d3d159b27e1985c18d072"
     end
   end
 
   on_linux do
-    url "https://github.com/MerzoukeMansouri/cu-agent/releases/download/v1.3.0/cua-v1.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "9743f2cbe43ace89e4828f554e64c9da528a25e8d72c2d162470497b436ea995"
+    url "https://github.com/MerzoukeMansouri/cu-agent/releases/download/v1.3.1/cua-v1.3.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "81f182725b436c7fba7a77ec6ec66925a1e92ae0aed84b5201f0c48dc2083a26"
   end
 
   def install
