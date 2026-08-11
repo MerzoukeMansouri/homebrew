@@ -1,22 +1,22 @@
 class Autoqa < Formula
   desc "Drive a real Chrome browser via CDP from the CLI"
   homepage "https://github.com/MerzoukeMansouri/auto-qa"
-  version "2.2.1"
+  version "2.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MerzoukeMansouri/auto-qa/releases/download/v2.2.1/autoqa-v2.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7a55976130c906b50e655c9c701d9ee8cdaee47821c8c9cc8c8ccf8925b91ef8"
+      url "https://github.com/MerzoukeMansouri/auto-qa/releases/download/v2.2.2/autoqa-v2.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "957e86d723170f8b64048b43ee45292b438cfa360b67d970eb33bb236035ad24"
     else
-      url "https://github.com/MerzoukeMansouri/auto-qa/releases/download/v2.2.1/autoqa-v2.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "ae7821020b6278cb226dc10319ab1a9e5886cc72ff12aa549e13ea0c59e067c7"
+      url "https://github.com/MerzoukeMansouri/auto-qa/releases/download/v2.2.2/autoqa-v2.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "16d8a8c984e461d3e76050f594e9f2153a1a73b6704987189cfb17b050f4584a"
     end
   end
 
   on_linux do
-    url "https://github.com/MerzoukeMansouri/auto-qa/releases/download/v2.2.1/autoqa-v2.2.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "59b8cc8f0d57c03152a63d91606bf7a605a574053f180edd8bd672fe4002df05"
+    url "https://github.com/MerzoukeMansouri/auto-qa/releases/download/v2.2.2/autoqa-v2.2.2-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "a8aab5dcfffc83d114aa0598cb2cca7a8149fe433d79ca8b69d821f0eceac157"
   end
 
   def install
